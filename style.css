@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(png-transparent-light-desktop-grey-black-background-atmosphere-leather-monochrome-thumbnail.png);
+
+}
+
+nav{
+    background-color: rgba(38, 36, 36, 0.775) ;
+    box-shadow: 3px 3px 5px rgb(rgb(38, 38, 38), green, blue);
+}
+
+
+nav ul{
+    width: 100;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end ;
+}
+
+nav li{
+    height: 50px;
+
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgba(156, 152, 152, 0.503);
+}
+
+nav li:first-child{
+margin-right: auto;
+
+}

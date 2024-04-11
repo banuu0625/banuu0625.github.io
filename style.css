@@ -92,10 +92,27 @@ margin-right: auto;
     1px 22px 10px rgba(16,16,16,0.2),
     1px 25px 35px rgba(16,16,16,0.2),
     1px 30px 60px rgba(16,16,16,0.4);
+    animation-name: slideUp;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running; 
+    
 
 
 
 
+
+}
+
+@keyframes slideUp{
+    from{transform: translateY(300%);
+        transform: translateX(50%);}
+}
+
+@keyframes slideDown{
+    to{transform: translateY(300%);
+        transform: translateX(50%)}
 }
 
 
@@ -144,6 +161,12 @@ margin-right: auto;
     transition-duration: 0.3s  ;
     transition-timing-function: ease;
     transition-delay: 0s;
+    animation-name: slideUp;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running; 
+    
 }
 
 
@@ -153,3 +176,46 @@ margin-right: auto;
 }
 
 
+#boxes{
+    display: flex;
+    position: absolute;
+    font-size: 8px;
+    transition-property: transform;
+    transition-duration: 0.3s  ;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    animation-name: slideUp;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+
+
+
+    
+
+}
+
+
+#n{
+
+    margin-top: 55%;
+    white-space: nowrap;
+    text-indent: 15%;
+
+    
+
+
+
+
+
+}
+
+
+#i{
+    margin-top: 55%;
+    white-space: nowrap;
+    text-indent: 150%;
+
+    
+
+}

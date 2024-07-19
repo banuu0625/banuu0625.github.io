@@ -61,3 +61,66 @@ margin-right: auto;
 
 }
 
+
+
+#icons{
+
+    font-size: 150px;
+    margin: 300px 475px;
+    animation-name: slideUp;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running; 
+    position: absolute;
+    color: black;
+    text-decoration: none;
+
+
+
+
+}
+
+#one{
+    position: fixed;
+    font-size: 20px;
+    margin-left: 490px ;
+    top: 300px;
+
+}
+
+#two{
+    position: fixed;
+    font-size: 20px;
+    margin-left: 725px ;
+    top: 300px;
+
+}
+
+#three{
+    position: fixed;
+    font-size: 20px;
+    margin-left: 950px ;
+    top: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes slideUp{
+from{transform: translateY(300%);
+    transform: translateX(50%);}
+}
+
+@keyframes slideDown{
+to{transform: translateY(300%);
+    transform: translateX(50%)}
+}
+

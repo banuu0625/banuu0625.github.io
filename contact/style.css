@@ -73,7 +73,7 @@ margin-right: auto;
     animation-direction: normal;
     animation-play-state: running; 
     position: absolute;
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 
 
@@ -92,7 +92,7 @@ margin-right: auto;
 #two{
     position: fixed;
     font-size: 20px;
-    margin-left: 725px ;
+    margin-left: 700px ;
     top: 300px;
 
 }
@@ -100,7 +100,7 @@ margin-right: auto;
 #three{
     position: fixed;
     font-size: 20px;
-    margin-left: 950px ;
+    margin-left: 900px ;
     top: 300px;
 
 }

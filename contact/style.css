@@ -14,11 +14,7 @@ body{
     background-image: url(/white-background-images-for-website-white-wallpapers-hd-2014-onlybackground-image.png);
 
 }
-
-
-
-
-   
+  
 nav{
 
     box-shadow: 3px 3px 5px rgb(rgb(38, 38, 38), green, blue);
@@ -62,65 +58,104 @@ margin-right: auto;
 }
 
 
-
-#icons{
-
-    font-size: 150px;
-    margin: 300px 475px;
-    animation-name: slideUp;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-play-state: running; 
-    position: absolute;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-
-
-
-
-}
-
 #one{
     position: fixed;
     font-size: 20px;
-    margin-left: 490px ;
-    top: 300px;
+    margin-left: 20% ;
+    top: 35%;
+    color: rgb(0, 0, 0);
+    
+    
 
 }
+
+#one1{
+
+    position: fixed;
+    font-size: 150px;
+    margin-left: 19%;
+    top: 40%;
+    color: rgb(159, 42, 138);
+}
+
+#one1:hover{
+
+    transform: translateY(-10px);
+}
+
 
 #two{
     position: fixed;
     font-size: 20px;
-    margin-left: 700px ;
-    top: 300px;
+    margin-left: 40% ;
+    top: 35%;
+
 
 }
+
+#two2{
+
+    position: fixed;
+    font-size: 150px;
+    margin-left: 38%;
+    top: 40%;
+    color: rgb(0, 0, 0);
+}
+
+#two2:hover{
+
+    transform: translateY(-10px);
+}
+
+
+#three3{
+
+    position: fixed;
+    font-size: 150px;
+    margin-left: 58%;
+    top: 40%;
+    color: rgb(89, 49, 137);
+}
+
+#three3:hover{
+
+    transform: translateY(-10px);
+}
+
+
 
 #three{
     position: fixed;
     font-size: 20px;
-    margin-left: 900px ;
-    top: 300px;
+    margin-left: 60% ;
+    top: 35%;
 
 }
 
 
 
+#four{
+    position: fixed;
+    font-size: 20px;
+    margin-left: 80% ;
+    top: 35%;
 
-
-
-
-
-
-
-@keyframes slideUp{
-from{transform: translateY(300%);
-    transform: translateX(50%);}
 }
 
-@keyframes slideDown{
-to{transform: translateY(300%);
-    transform: translateX(50%)}
+
+
+#four4{
+
+    position: fixed;
+    font-size: 150px;
+    margin-left: 78%;
+    top: 40%;
+    color: rgb(39, 181, 27);
 }
+
+#four4:hover{
+
+    transform: translateY(-10px);
+}
+
 

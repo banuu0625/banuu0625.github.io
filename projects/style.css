@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body{
     min-height: 100vh;
     background-size: cover;
@@ -12,18 +11,14 @@ body{
     font-family: cursive;
     font-weight: bold;
     background-image: url(/white-background-images-for-website-white-wallpapers-hd-2014-onlybackground-image.png);
+    padding-bottom: 50px; /* Adjust the value as needed */
 
 }
-
-
-
-
-   
+  
 nav{
 
     box-shadow: 3px 3px 5px rgb(rgb(38, 38, 38), green, blue);
 }
-
 
 nav ul{
     width: 100;
@@ -34,7 +29,6 @@ nav ul{
 
 nav li{
     height: 50px;
-
 }
 
 nav a{
@@ -49,7 +43,6 @@ nav a{
     transition-timing-function: ease;
     transition-delay: 0s;
 
-
 }
 
 nav a:hover{
@@ -62,36 +55,44 @@ margin-right: auto;
 }
 
 
+#video{
 
-#tic_tac_toe {
-    width: 400px;
-    height: 200px;
-    margin: 150px auto ; /* Center the box horizontally */
-    background-color: aliceblue; /* Light background color with transparency */
-    border: 4px solid black;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 26%;
+    margin-top: 6%;
+    transition-duration: 0.3s  ;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running; 
 }
 
-#tic_tac_toe:hover {
-    transform: translateY(-10px); /* Slight lift on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+#video:hover{
+    transform: translate(0%, -10%);
+    
 }
 
-#tic_tac_toe a {
+#title{
+
+    margin-left: 42%;
+    margin-top: 4%;
     font-size: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    align-items: center;
-    text-align: center;
-    transition: color 0.3s ease;
+}
+@keyframes slideUp{
+    from{transform: translateY(300%);
+        transform: translateX(50%);}
 }
 
-#tic_tac_toe a:hover {
-    color: black; /* Change text color on hover */
+@keyframes slideDown{
+    to{transform: translateY(300%);
+        transform: translateX(50%)}
+}
+
+
+#infobox{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
 }

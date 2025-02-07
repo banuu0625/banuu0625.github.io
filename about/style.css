@@ -61,3 +61,126 @@ margin-right: auto;
 
 }
 
+#B06{
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    transition-property: transform;
+    transition-duration: 0.3s  ;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    animation-name: slideUp;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    
+
+}  
+
+#B06:hover{
+    transform: translateY(-70px);
+}
+
+.description{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 60%;
+    position: absolute;
+    
+
+}
+
+
+
+#one {
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-inline: auto;
+    overflow: hidden;
+    animation-duration: 2s;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 2s steps(23) forwards, 
+               blink 1s step-end infinite;
+}
+
+
+
+
+#two{
+
+    visibility: hidden; 
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-inline:auto;
+    overflow: hidden;
+    margin-top: 10%;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 2s steps(23) forwards, blink 1s step-end infinite;
+    animation-delay: 2s;
+
+}
+
+#three{
+
+    visibility: hidden; 
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-inline:auto;
+    overflow: hidden;
+    margin-top: 10%;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 2s steps(23) forwards, blink 1s step-end infinite;
+    animation-delay: 4s;
+
+}
+
+#four{
+
+    visibility: hidden; 
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-inline:auto;
+    overflow: hidden;
+    margin-top: 10%;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 2s steps(23) forwards, 
+    blink 1s step-end infinite;
+    animation-delay: 6s;
+
+}
+
+
+
+
+
+
+
+
+@keyframes slideUp{
+    from{transform: translateY(300%);
+        transform: translateX(50%);}
+}
+
+@keyframes slideDown{
+    to{transform: translateY(300%);
+        transform: translateX(50%)}
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        visibility: visible;
+    }
+
+    to {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+

@@ -1,12 +1,13 @@
-# Welcome!
+# Responsive Website
 
-![B06](https://github.com/banuu0625/banuu0625.github.io/assets/159810689/429a91a5-49c5-4ff0-8db9-0ba382589de7)
+This repository contains a responsive website, therefore it's also usable on
+mobile.
 
 ## About me
 
-Insta :
+Instagram :  https://www.instagram.com/b06.js/
 
-YT:
+Fiverr: https://www.fiverr.com/sellers/b06_code
 
-Tik tok::
+Tik tok: https://www.tiktok.com/@b06.js
 

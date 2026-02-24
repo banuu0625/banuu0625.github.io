@@ -38,7 +38,7 @@ header{
 }
 
 .logo{
-    font-size: 3rem;
+    font-size: 5rem;
     color:#50586C ;
     font-weight: 800 ;
     cursor: pointer;
@@ -183,6 +183,7 @@ home-img{
 .btn{
 
     display: inline-block;
+    margin-top: 2rem;
     padding: 1rem 2.8rem;
     background-color:#50586C;
     border-radius: 4rem;
@@ -243,19 +244,19 @@ home-img{
 
 @keyframes words{
     0%, 20%{
-        content: "Front-End Developer";
+        content: "Developer";
     }
     21% ,40%{
-        content: "Designer";
+        content: "Designer"; /*gut*/ 
     }
     41%, 60%{
-        content: "AI Developer";
+        content: "Student";
     }
     61%, 80%{
-        content: "Web Designer";
+        content: "Web Designer"; /*gut*/ 
     }
     81%, 100%{
-        content: "Freelancer" ;
+        content: "Freelancer" ; /*gut*/ 
     }
 }
 

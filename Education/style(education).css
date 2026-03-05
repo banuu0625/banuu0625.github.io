@@ -101,3 +101,122 @@ nav a:hover,
     }
 
 }  
+
+.container{
+    position: relative;
+    display: inline-block;
+    top: 15%;
+    left: 15%;
+    font-size: 2rem
+}
+
+.container h1{
+
+    margin-bottom: 2rem;
+}
+
+.ImLee{
+
+    display: block;
+}
+
+.Project{
+    
+    position: relative;
+    display: block;
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+
+
+.ETH{
+    position: relative;
+    display: block;
+    margin-top: 65rem;
+    margin-bottom: 20rem;
+}
+
+.ImLeeyear{
+
+    position: absolute;
+    display: inline-block flex;
+    top: 30%;
+    left: 5rem;
+    font-size: 1.5rem;
+
+}
+
+.ETHyear{
+
+    position: absolute;
+    display: inline-block flex ;
+    top: 130%;
+    left: 5rem;
+    font-size: 1.5rem;
+}
+
+
+#Imglee{
+    width: 35rem;
+    height: 12rem;
+    padding: 20px;
+    position:absolute;
+    left: 70%;
+    top: 0;
+    border: #50586C solid 0.2rem;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.5s ease;
+
+
+}
+
+#Imglee:hover{
+
+    transform: scale(1.1) ;
+}
+
+
+
+#Ma_LOGO{
+    width: 35rem;
+    height: 40rem;
+    padding: 20px;
+    position: absolute;
+    top: 150%;
+    border: #50586C solid 0.2rem;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.5s ease;
+}
+
+#Ma_LOGO:hover{
+    transform: scale(1.1) ;
+}
+
+
+#ImgETH{
+    width: 35rem;
+    height: 12rem;
+    padding: 40px;
+    position:absolute;
+    left: 70%;
+    top: 10%;
+    border: #50586C solid 0.2rem;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.5s ease;
+
+
+}
+
+#ImgETH:hover{
+
+    transform: scale(1.1) ;
+}
+
+
+
+
+

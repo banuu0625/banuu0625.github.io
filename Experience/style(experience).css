@@ -122,15 +122,21 @@ nav a:hover,
 
 .Journey p{
     display: flexbox;
-    border: #50586C solid 0.3rem;
-    background-color: #a7b1cc;
+    border: #50586C solid 0.1rem;
+    background-color: #d2d9eb;
     border-radius: 5rem;
     padding: 3rem ;
     margin: 4rem 10rem 4rem;
     font-size: 2.5rem;
+    transition: transform 0.5s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 
+}
+
+.Journey a{
+    color: #50586C ;
+    border-bottom: 0.5rem solid #50586C;
 }
 
 .Journey img{
@@ -155,7 +161,11 @@ nav a:hover,
 }
 
 .Journey img:hover{
-    transform: scale(1.1) ;
+    transform: scale(1.05) ;
+}
+
+.Journey p:hover{
+    transform: scale(1.05) ;
 }
 
 

@@ -101,3 +101,72 @@ nav a:hover,
     }
 
 }  
+
+.placeholder{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    top: 25%;
+    left: 20%;
+    font-size: 2rem;
+    width: 60%;
+    height: 20%;
+    border: #50586C solid 0.1rem;
+    background-color: #d2d9eb;
+    border-radius: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.5s ease;
+}
+
+.placeholder:hover{
+    transform: scale(1.05) ;
+}
+
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35rem; /* adjust vertical spacing if needed */
+}
+
+.social-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    background-color: transparent;
+    border: 0.2rem solid #50586C;
+    border-radius: 50%;
+    font-size: 10rem;
+    transition: 0.3s ease;
+    color: black;
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #50586C;
+    box-shadow: 0 0 25px  #50586C ;
+}
+
+
+.social-icons h3{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #50586C;
+    top:80%;
+    transition: 0.5s ease;
+
+}
+
+.social-icons h3:hover{
+    transform: scale(1.1) ;
+}

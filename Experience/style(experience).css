@@ -6,7 +6,8 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Merriweather", serif;
+    margin-bottom: 5rem;
 }
 
 html{
@@ -17,9 +18,8 @@ body{
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
-    background-color: #DCE2F0;
-    color: #50586C;
-
+    background-color: #C5C6C7;
+    color: #000000;
 }
 
 
@@ -40,7 +40,7 @@ header{
 
 .logo{
     font-size: 5rem;
-    color:#50586C ;
+    color:#000000 ;
     font-weight: 800 ;
     cursor: pointer;
     transition: 0.5s ease;
@@ -61,8 +61,8 @@ nav a{
 
 nav a:hover,
     nav a.active{
-        color: #50586C;
-        border-bottom: 3px solid #50586C;
+        color: #856404;
+        border-bottom: 3px solid #856404;
     }
 
 
@@ -75,12 +75,12 @@ nav a:hover,
         top: 0;
         right: 0;
         width: 40%;
-        border-left: 3px solid  #50586C;
-        border-bottom: 3px solid  #50586C;
+        border-left: 3px solid  #000000;
+        border-bottom: 3px solid  #000000;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
-        background-color: #DCE2F0;
-        border-top: 0.1rem solid #DCE2F0 ;
+        background-color: #C5C6C7;
+        border-top: 0.1rem solid #C5C6C7 ;
     }
 
     nav.active{
@@ -97,7 +97,7 @@ nav a:hover,
     nav a.active{
     padding: 1rem;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #50586C;
+    border-bottom: 0.5rem solid #856404;
 
     }
 
@@ -106,7 +106,7 @@ nav a:hover,
 
 #Headers{
     font-size: 4rem;
-    color:#50586C ;
+    color: #856404;
     font-weight: 1500 ;
     cursor: pointer;
     transition: 0.5s ease;
@@ -114,6 +114,7 @@ nav a:hover,
     justify-content: center;
     align-items: center;
     margin-top: 20rem;
+    margin-bottom: 5rem;
 }
 
 #Headers:hover{
@@ -121,66 +122,54 @@ nav a:hover,
 }
 
 .Journey p{
-    display: flexbox;
-    border: #50586C solid 0.1rem;
-    background-color: #d2d9eb;
-    border-radius: 5rem;
-    padding: 3rem ;
-    margin: 4rem 10rem 4rem;
-    font-size: 2.5rem;
-    transition: transform 0.5s ease;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 3rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
 
+.Journey img{
+    position: relative;
 
 }
 
 .Journey a{
-    color: #50586C ;
-    border-bottom: 0.5rem solid #50586C;
+    color: #856404; ; 
 }
 
-.Journey img{
-    display: inline-block;
-    margin: 10% 12% 0 ;
-    border: #50586C solid 0.5rem;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
 
 #img1{
     width: 35rem;
     height: 60rem;
-    transition: transform 0.5s ease;
+    float: left;
+    margin: 0 10rem 0 10rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+
+
+
 
 }
 #img2{
-    width: 60rem;
-    height: 35rem;
-    margin-bottom: 4rem;
-    transition: transform 0.5s ease;
+    width: 90rem;
+    height: 55rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+    margin-top: 5rem;
+    right: 0;
 }
 
-.Journey img:hover{
-    transform: scale(1.05) ;
-}
 
-.Journey p:hover{
-    transform: scale(1.05) ;
-}
 
 
 .video{
-    display: block;
-    margin: 0 auto;
-    margin-top: 25rem;
-    border: #50586C solid 0.5rem;
-    border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 700px;
-    transition: transform 0.5s ease;
+    float: right;
+    margin: 0 10rem 0 10rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+
 
 }
 
-.video:hover{
-    transform: scale(1.1);
-}

@@ -285,9 +285,31 @@ section{
     font-size: 1.5rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
 }
 
+.services h3{
+    display:flex;
+    color: black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15%;
+    font-size: 7rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2rem 4rem;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+.services h3:hover{
+    transform: translateX(-50%) scale(1.1);
+    background-color: #857310;
+}
 .input-box{
     display: flex;
     flex-direction: column;
